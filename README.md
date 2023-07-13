@@ -1,6 +1,6 @@
-# Projeto: Análise de Dados da Steam
+# Projeto: Engenharia de Dados da Steam
 
-Este projeto consiste na extração, armazenamento e análise de dados relacionados às vendas do site SteamDB. A seguir, detalharemos as etapas envolvidas no processo.
+Este projeto consiste na extração, armazenamento relacionados às vendas do site SteamDB. A seguir, detalharemos as etapas envolvidas no processo.
 
 ## Como o projeto funciona
 
