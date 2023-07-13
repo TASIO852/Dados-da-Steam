@@ -1,0 +1,31 @@
+# Arquivos gerados pelo sistema operacional
+*.pyc
+__pycache__/
+
+# Arquivos gerados por IDEs ou editores de código
+.vscode/
+.idea/
+
+# Arquivos de ambiente ou configuração local
+.env
+venv/
+env/
+
+# Logs ou arquivos de saída
+*.log
+
+# Arquivos de dados grandes ou sensíveis
+data/*.csv
+data/*.txt
+
+# Arquivos de dependências
+/lib/
+/libs/
+/dist/
+/build/
+
+# Arquivos de saída ou resultados de compilação
+/output/
+/results/
+
+# Outros arquivos ou diretórios específicos do projeto que você deseja ignorar

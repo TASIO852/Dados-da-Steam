@@ -1,0 +1,16 @@
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Cache-Control': 'max-age=0',
+    'Cookie': 'cf_clearance=Nh_f0SS.tJA8TfZV6YwYsXt5YeK9dZX.O.d6_j4tXls-1689247947-0-160; __Host-steamdb=0%3B5210963%3Bc54b18fd7f8cba8720f0adf6a1ff9fb7a1c4db01; __cf_bm=yxEjYZUCTO2QN2eYR0yuDXEy1NGkeWWB8CDAoUU5BAM-1689259292-0-ATxuo/RiuMe93jZc8C+I1Z9YdLn/k5Js/kDkOPizs6cdI1NquCuDeKkbafh/TTjiRplgyh5sTL5twGVniQmw76k=',
+    'Referer': 'https://steamdb.info/sales/',
+    'Sec-Ch-Ua': '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
+    'Sec-Ch-Ua-Mobile': '?0',
+    'Sec-Ch-Ua-Platform': '"Windows"',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'same-origin',
+    'Sec-Fetch-User': '?1',
+    'Upgrade-Insecure-Requests': '1',
+}
