@@ -4,9 +4,9 @@ Este projeto consiste na extração, armazenamento relacionados às vendas do si
 
 ## Como o projeto funciona
 
-1. **Extração de dados da web**: Começamos com um script Python que realiza uma solicitação HTTP à página [SteamDB](https://steamdb.info/sales/). O script raspa os dados contidos na tabela de vendas e os salva em um arquivo no formato CSV.
+1. **Extração de dados da web**: Começamos com um script Python que realiza uma solicitação HTTP à página [SteamDB](https://steamdb.info/sales/). O script raspa os dados contidos na tabela de vendas.
 ![Alt text](Docs/img/api_settings.png)
-2. **Armazenamento dos dados no Google BigQuery**: A próxima etapa consiste em armazenar os dados extraídos no Google BigQuery. Inicialmente, é necessário criar um projeto no Google Cloud. Em seguida, no BigQuery, é preciso criar um conjunto de dados e uma tabela para receber os dados. Com estas estruturas preparadas, é possível carregar os dados do arquivo CSV na tabela criada.
+2. **Armazenamento dos dados no Google BigQuery**: A próxima etapa envolve armazenar os dados extraídos no Google BigQuery. O processo começa com a criação de um projeto no Google Cloud, seguido pela configuração de um conjunto de dados e uma tabela correspondente no BigQuery para acomodar os dados.É importante ressaltar que para se comunicar com o Google BigQuery, é necessária uma chave de autenticação em formato JSON, fornecida pelo Google Cloud. Essa chave deve ser armazenada em um local seguro em seu ambiente local e seu caminho deve ser definido na variável de ambiente 'GOOGLE_APPLICATION_CREDENTIALS'.
 ![Alt text](Docs/img/bigquery_print.png)
 3. **Conexão dos dados com o Google Sheets**: O último passo envolve conectar os dados do BigQuery ao Google Sheets. Através da funcionalidade "Conectar-se ao BigQuery", disponível no Google Sheets, é possível realizar consultas SQL no BigQuery diretamente no Google Sheets e importar os resultados para a planilha desejada.
 ![Alt text](Docs/img/google_sheets.png)
@@ -16,7 +16,7 @@ Este projeto consiste na extração, armazenamento relacionados às vendas do si
 Embora o projeto esteja funcional, ele poderia ser aprimorado com mais tempo e recursos. Algumas possibilidades de aprimoramentos incluem:
 
 1. Implementação de um processo de Integração Contínua/Entrega Contínua (CI/CD) utilizando GitHub Actions.
-2. Aumento da segurança do projeto através da ocultação do arquivo `headers.py` com o uso dos segredos do GitHub.
+2. Aumento da segurança do projeto através da ocultação do arquivo `headers.py ea chave de usuario do GCP` com o uso do GitHub Secrets.
 3. Automatização do processo e implantação no Google Cloud Platform (GCP), utilizando serviços como o Cloud Functions e o Cloud Storage.
 4. Utilização de Infraestrutura como Código (IaC) com o Terraform para gerenciar os custos da infraestrutura no GCP e ter maior controle sobre os recursos utilizados.
 
