@@ -26,4 +26,4 @@ A seguinte imagem ilustra como seria a arquitetura do pipeline após a implement
 
 ![Arquitetura do Pipeline](Docs/img/arquitetura.png)
 
-Para ter uma estimativa dos custos associados a esta arquitetura, acesse o seguinte link: [Estimativa de Custo](https://cloud.google.com/products/calculator/#id=04c1dc80-d414-46be-b3d2-5fe167f7db59).
+Para ter uma estimativa dos custos associados a esta arquitetura, acesse o seguinte link: [Estimativa de Custo](<Docs/Calculadora de preços do Google Cloud.pdf>).
